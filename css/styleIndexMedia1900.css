@@ -1,0 +1,120 @@
+@media (max-width: 1900px) {
+
+    .header-menu {
+        max-width: 1620px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .container-1 {
+        max-width: 1620px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .iconCenter{
+        display: none;
+    }
+
+    @media (max-width: 1480px) {
+        .container-1 {
+
+            justify-content: center;
+
+        }
+
+        .right-side-container-1{
+            margin-top: 50px;
+        }
+    }
+
+    .container-2 {
+        max-width: 1620px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .body-container-3 {
+        max-width: 1620px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .container-4 {
+        max-width: 1620px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .body-container-5 {
+        max-width: 1620px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .container-6 {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-container-6 {
+        font-family: 'Monument';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        width: auto;
+        height: auto;
+
+
+    }
+
+    .top-container-5{
+         display: flex;
+         justify-content: center;
+    }
+
+    .main-container-5 {
+        justify-content: center;
+    }
+
+    .main-container-5>.card-container-5:not(:first-child) {
+        display: none;
+    }
+
+    .btns-container-6 {
+        display: flex;
+        margin: auto;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+
+    .top-footer {
+        margin: auto;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+
+    .pimpi {
+        display: none;
+    }
+
+
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-container-3 {
+        justify-content: space-around;
+    }
+}
